@@ -1,0 +1,191 @@
+.him{
+	height: 300px;
+	width: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container1{
+	max-width: 1170px;
+	margin: 75px;;
+    
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+
+.footer{
+	background-color: #243d7e;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0px 70px;
+   
+
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #191414;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #431ee9;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #000000;
+	text-decoration: none;
+	font-weight: 300;
+	color: #000000;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #000000;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgb(0, 0, 0);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+#go{
+margin-bottom: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+ 
+ .wrapper{
+	border:#000000 ;
+   display: flex;
+ }
+ .wrapper .static-txt{
+   color: #fff;
+   font-size: 60px;
+   font-weight: 400;
+ }
+ .wrapper .dynamic-txts{
+   margin-left: 15px;
+   height: 90px;
+   line-height: 90px;
+   overflow: hidden;
+ }
+ .dynamic-txts li{
+   list-style: none;
+   color: #FC6D6D;
+   font-size: 60px;
+   font-weight: 500;
+   position: relative;
+   top: 0;
+   animation: slide 12s steps(4) infinite;
+ }
+ @keyframes slide {
+   100%{
+     top: -360px;
+   }
+ }
+ .dynamic-txts li span{
+   position: relative;
+   margin: 5px 0;
+   line-height: 90px;
+ }
+ .dynamic-txts li span::after{
+   content: "";
+   position: absolute;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background: white;
+   border-left: 2px solid #FC6D6D;
+   animation: typing 3s steps(10) infinite;
+ }
+ @keyframes typing {
+   40%, 60%{
+     left: calc(100% + 30px);
+   }
+   100%{
+     left: 0;
+   }
+ }
+
+/* for smooth scroll */
+ html{
+  scroll-behavior: smooth;
+}
+
+
+/* hover effect */
+
+.inner{
+  overflow: hidden; 
+}
+
+.inner img{
+  transition: all 0.3s ease;
+}
+.inner:hover img{
+  transform: scale(0.51);
+}
+
+.btn-group{
+	justify-content: center;
+
+}
+.asw{
+	justify-items: center;
+}
+
+
+

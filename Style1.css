@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'poppins' sans-serif;
+}
+.carousel-caption{
+    bottom: 60px;
+
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    background: #343a40;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 50px;
+
+}
+
+.btn-group{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+#ourHotels{
+    transition-duration: 2s;
+    transition-delay: 2s;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    margin: 60px;
+}
+p{
+    margin: 60px;
+}
